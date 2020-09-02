@@ -90,6 +90,7 @@ For `Template`-level metrics:
 | `workflow.outputs.artifacts.<NAME>` | Global artifact in the workflow |
 | `workflow.annotations.<NAME>` | Workflow annotations |
 | `workflow.labels.<NAME>` | Workflow labels |
+| `workflow.creationUnixTime` | Workflow creation unix time  (e.g. `1599052680`) |
 | `workflow.creationTimestamp` | Workflow creation timestamp formatted in RFC 3339  (e.g. `2018-08-23T05:42:49Z`) |
 | `workflow.creationTimestamp.<STRFTIMECHAR>` | Creation timestamp formatted with a [strftime](http://strftime.org) format character |
 | `workflow.priority` | Workflow priority |

@@ -128,6 +128,8 @@ const (
 	GlobalVarWorkflowUID = "workflow.uid"
 	// GlobalVarWorkflowStatus is a global workflow variable referencing the workflow's status.phase field
 	GlobalVarWorkflowStatus = "workflow.status"
+	// GlobalVarWorkflowCreationUnixTime is the workflow variable referencing the workflow's metadata.creationTimestamp field with unix time format
+	GlobalVarWorkflowCreationUnixTime = "workflow.creationUnixTime"
 	// GlobalVarWorkflowCreationTimestamp is the workflow variable referencing the workflow's metadata.creationTimestamp field
 	GlobalVarWorkflowCreationTimestamp = "workflow.creationTimestamp"
 	// GlobalVarWorkflowPriority is the workflow variable referencing the workflow's priority field
